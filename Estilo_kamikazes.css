@@ -1,0 +1,105 @@
+body { 
+  background-color: #021; 
+  font-size: 100%; 
+  font-family: georgia, serif, times, verdana, ms sans serif, Arial, Helvetica; 
+  color: #FFFFFF; 
+  max-width: 800;
+}
+
+H1 { 
+  margin:1em -1em; 
+  border-bottom: solid 3pt #FFDD00; 
+  font-size: 140%; 
+  font-family: georgia, verdana, ms sans serif, Arial, Helvetica; 
+  font-style:italic; 
+  font-weight:bold;
+  color: #FFDD00;
+  padding-left: 1em; padding-right: 1em; padding-bottom: 0.5em; word-spacing:3; 
+  text-align:center;
+}
+
+H2 { 
+  font-size: 120%;
+  font-weight: bold; 
+  font-family: georgia, verdana, ms sans serif, Arial, Helvetica; 
+  border-bottom: solid 1pt #FFDD00; 
+}
+
+H3 { 
+  font-size: 100%;
+  font-weight: bold; 
+  font-family: georgia, verdana, ms sans serif, Arial, Helvetica; 
+  border-bottom: solid 1pt #FFDD00; 
+}
+
+
+.letra { 
+  font-size: 120%; 
+  font-family: verdana, ms sans serif, Arial, Helvetica; 
+  color: #AA0000;
+}
+
+a { 
+  color: #FFDD00;
+  border-bottom: 1px dotted #708090;
+  text-decoration: none;
+}
+
+a:visited { 
+  color: #AA9900;
+}
+
+a:hover {
+  color: #112211;
+  background-color: #FFDD00;
+}
+
+#publicidad {
+  border-bottom: 0px solid #708090;
+}
+
+td { 
+  font-size: 100%; 
+}
+
+#link_cancion {
+  border-bottom: 0px solid #708090;
+}
+
+ul {
+  list-style: square;
+}
+
+li {
+  padding: 1pt;
+}
+
+.cambios {
+  border: solid 1pt #FFDD00;
+  vertical-align: text-top;
+  padding: 0.5em 1em 0.5em 0.3em;
+  font-size: small;
+}
+
+.titulo_cambios {
+  border: solid 1pt #FFDD00;
+  vertical-align: text-top;
+  padding: 0.5em 1em 0.5em 0.3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu_cancion {
+  border-top: solid 1pt #FFDD00;
+  border-bottom: solid 1pt #FFDD00;
+  padding: 0.5em 0em 0.5em 0em;
+  text-align: center;
+}
+
+pre {
+  font-size: 90%;
+}
+
+#selector_estilos {
+	text-align: center;
+}

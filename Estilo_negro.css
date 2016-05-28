@@ -1,0 +1,99 @@
+body { 
+  background-color: black; 
+  font-size: 12pt; font-family: verdana, ms sans serif, Arial, Helvetica; 
+  color: white;
+  max-width: 800;
+}
+
+H1 { 
+  font-size: 16pt; 
+  font-family: verdana, ms sans serif, Arial, Helvetica; 
+  color: #FF9900 
+}
+
+H2 { 
+  font-size: 14pt;
+  font-weight: bold; 
+  font-family: verdana, ms sans serif, Arial, Helvetica; 
+  color: white 
+}
+
+H3 { 
+  font-size: 12pt;
+  font-weight: bold; 
+  font-family: verdana, ms sans serif, Arial, Helvetica; 
+  color: white 
+}
+
+code { 
+  font-size: 12pt;  
+  font-family: verdana, ms sans serif, Arial, Helvetica; 
+  color: #FF9900; 
+  margin-left: 3em
+}
+
+.letra { 
+  font-size: 12pt; 
+  font-family: verdana, ms sans serif, Arial, Helvetica; 
+  color: #FF9900 
+}
+
+a { 
+  color: #FF9900;
+  text-decoration: none;
+  border-bottom: 1px dotted #708090;
+}
+
+a:visited { 
+  color: #CC6600 
+}
+
+a:hover {
+  border-bottom: 2px dotted #90A0B0;
+}
+
+#publicidad {
+  border-bottom: 0px solid #708090;
+}
+
+td { 
+  font-size: 12pt; 
+  font-family: verdana, ms sans serif, Arial, Helvetica; 
+  color: white 
+}
+
+ul {
+  list-style: square;
+}
+
+.cambios {
+  border-left: dashed 1pt #FF9900;
+  border-right: dashed 1pt #FF9900; 
+  border-top: dashed 1pt #FF9900; 
+  vertical-align: text-top;
+  padding: 0.5em 1em 0.5em 0.3em;
+}
+
+.titulo_cambios {
+  border-left: dashed 1pt #FF9900;
+  border-right: dashed 1pt #FF9900; 
+  border-top: dashed 1pt #FF9900; 
+  vertical-align: text-top;
+  padding: 0.5em 1em 0.5em 0.3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu_cancion {
+  border-top: dashed 1pt #FF9900;
+  border-bottom: dashed 1pt #FF9900;
+  padding: 0em 1em 0em 1em;
+}
+
+#link_cancion {
+  border-bottom: 0px solid #708090;
+}
+
+#selector_estilos {
+	text-align: center;
+}

@@ -1,0 +1,184 @@
+body { 
+  font-family: georgia, serif, times, verdana, ms sans serif, Arial, Helvetica;
+	background: #82A3B4 url("cabecera.jpg") no-repeat top center;
+	color: #665544;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+H1 { 
+  font-size: 140%; 
+  font-style:italic; 
+  font-weight:bold;
+  color: #FFDD00;
+  padding-left: 1em; padding-right: 1em; padding-bottom: 0.5em; word-spacing:3; 
+  text-align:center;
+	text-indent: -2000px;
+}
+
+h1 {
+		display: none;
+}
+
+h2 { 
+  font-size: 120%;
+  font-weight: bold; 
+}
+
+h3 { 
+  font-size: 100%;
+  font-weight: bold; 
+}
+
+.letra { 
+  font-size: 120%; 
+  font-family: verdana, ms sans serif, Arial, Helvetica; 
+  color: #AA0000;
+}
+
+a { 
+  color: #BB4422;
+  border-bottom: 1px solid #A9BDC7;
+  text-decoration: none;
+}
+
+a:visited { 
+  color: #802E17;
+}
+
+a:hover {
+  color: #FF5224;
+}
+
+.publicidad {
+  border-bottom: 0px solid #708090;
+}
+
+td { 
+  font-size: 100%; 
+}
+
+#link_cancion {
+  border-bottom: 0px solid #708090;
+}
+
+ul {
+  list-style: square;
+}
+
+.cambios {
+  vertical-align: text-top;
+  padding: 0.5em 30px 0.5em 0.3em;
+  font-size: 80%;
+}
+
+.titulo_cambios {
+  vertical-align: text-top;
+  padding: 0.5em 30px 0.5em 0.3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+pre {
+  font-size: 90%;
+}
+
+#contenido {
+	background: #82A3B4 url("fondo.jpg") repeat-y top center;
+  margin: 0 auto;
+	width: 740px;
+	text-align: left;
+}
+
+#flag {
+	background: transparent;
+	height: 218px;
+	margin: 0;
+}
+
+div#contenido table  {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+div#contenido p, div#contenido h2, div#contenido h3, div#contenido pre {
+	text-align: left;
+	padding-left: 80px;
+	padding-right: 80px;	
+}
+
+div#contenido ul {
+	text-align: left;
+	padding-left: 60px;
+	padding-right: 80px;
+}
+
+/* Sólo para Firefox */
+div#contenido > ul {
+	text-align: left;
+	padding-left: 100px;
+	padding-right: 80px;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+table.tabla_menu_cancion {
+	position: relative;
+	top: -105px;
+	color: #E6DAC0;
+	font-weight: bold;
+}
+
+.tabla_menu_cancion td {
+	text-align: center;
+}
+
+table.tabla_menu_cancion a {
+	color: #E6DAC0;
+}
+
+table.tabla_menu_cancion a:hover {
+	color: #FFF2D5;
+	background: transparent;
+}
+
+table.tabla_menu_cancion a:visited {
+	color: #D3C8B0;
+	background: transparent;
+}
+
+#publicidad {
+	padding-top: 2em;
+	text-align: right;
+}
+
+hr {
+	width: 500px;
+	text-align: center;
+}
+
+#pie {
+	background: transparent url("pie.jpg") no-repeat top center;
+	height: 69px;
+}
+
+div#pie p {
+	text-align: center;
+}
+
+#pag_principal div#contenido ul {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+#pag_principal div#contenido table {
+	padding-right: 1em;
+}
+
+#selector_estilos {
+	text-align: center;
+}
